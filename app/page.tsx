@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Box, Grid, Typography } from '@mui/material';
 import data from './data';
 import AdventCard from './components/AdventCard';

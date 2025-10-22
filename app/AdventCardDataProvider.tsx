@@ -44,18 +44,15 @@ type AdventCardDataProviderProps = {
 }
 
 const AdventCardDataProvider = ({ children }: AdventCardDataProviderProps) => {
+    // Initialize cards with solved status from localStorage
     const [cards, setCards] = useState<Array<{
         isSolved: boolean
-    } & BaseCardData>>([]);
-
-    // Initialize cards with solved status from localStorage
-    useEffect(() => {
-        const initializedCards = data.map(card => ({
+    } & BaseCardData>>(() => {
+        return data.map(card => ({
             ...card,
             isSolved: isCardSolvedById(card.id)
         }));
-        setCards(initializedCards);
-    }, []);
+    });
 
     const markCardAsSolved = (id: number) => {
         setCardIsSolvedById(id);
@@ -67,7 +64,7 @@ const AdventCardDataProvider = ({ children }: AdventCardDataProviderProps) => {
     };
 
     const isCardSolved = (id: number): boolean => {
-        return isCardSolvedById(id) || cards.find(item => item.id === id)?.isSolved || false;
+        return cards.find(item => item.id === id)?.isSolved || false;
     };
 
     const value: AdventCardContextType = {

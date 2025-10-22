@@ -1,10 +1,6 @@
 "use client";
 
 import * as React from 'react';
-import Box from '@mui/material/Box';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Dialog from '@mui/material/Dialog';
@@ -13,8 +9,6 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogActions from '@mui/material/DialogActions';
 import TextField from '@mui/material/TextField';
 import data from '../data';
-import { CardActionArea } from '@mui/material';
-import { setCardIsSolvedById } from '../utils/localStorageUitls';
 import {useMarkCardAsSolved} from '../AdventCardDataProvider';
 import Alert from '@mui/material/Alert';
 
