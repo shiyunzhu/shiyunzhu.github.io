@@ -40,7 +40,9 @@
     "build\\dev/types/**/*.ts",
     "build\\dev/types/**/*.ts",
     "dist\\dev/types/**/*.ts",
-    "dist\\dev/types/**/*.ts"
+    "dist\\dev/types/**/*.ts",
+    "docs\\dev/types/**/*.ts",
+    "docs\\dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
