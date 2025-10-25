@@ -73,7 +73,7 @@ const CheckAnswerComponent = () => {
     }, [eventNumber, router]);
 
     return (
-        <Box sx={{ maxWidth: 400, mx: 'auto' }}>
+        <Box sx={{ maxWidth: 400, mx: 'auto', backgroundColor: '#aaa9a5', padding: 2, borderRadius: '8px' }}>
             <Snowfall 
                 color="#fff"  
                 style={{
@@ -89,13 +89,13 @@ const CheckAnswerComponent = () => {
             <FormControl fullWidth sx={{ mb: 2 }}>
                 <InputLabel id="event-number-label">Event Number</InputLabel>
                 <Select
-                    autoFocus
                     labelId="event-number-label"
                     id="event-number-select"
                     required
                     value={eventNumberString}
                     label="Event Number"
                     onChange={handleEventNumberChange}
+                    sx={{backgroundColor: '#fff'}}
                 >
                     <MenuItem value="1">1</MenuItem>
                     <MenuItem value="2">2</MenuItem>
@@ -119,7 +119,7 @@ const CheckAnswerComponent = () => {
                 value={userAnswer}
                 onChange={(e) => setUserAnswer(e.target.value)}
                 onKeyPress={handleKeyPress}
-                sx={{ mb: 2 }}
+                sx={{ mb: 2, backgroundColor: '#fff' }}
             />
             
             {isCorrect && eventNumber ? (

@@ -1,12 +1,5 @@
-import { Box, Grid, Typography } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 import CheckAnswer from './components/CheckAnswer';
-import { Festive} from "next/font/google";
-
-const festive = Festive({
-  weight: ["400"],
-  variable: "--font-festive",
-  subsets: ["latin"],
-})
 
 export default function Home() {
 
@@ -19,26 +12,12 @@ export default function Home() {
       }}>  
         <Grid container spacing={{ xs: 2, sm: 3, md: 4 }}>
           <Grid size={12}>
-            <Typography 
-            className={festive.className}
-              variant="h1" 
-              component="h1"
-              sx={{
-                fontSize: { xs: '2.5rem', sm: '2.5rem', md: '3rem', lg: '3.5rem' },
-                textAlign: 'center',
-                mb: 2
-              }}
-            >
-              Gonzalez Zhu Christmas 2025
-            </Typography>
-          </Grid>
-          <Grid size={12}>
             <Box sx={{ display: 'flex', justifyContent: 'center', mb: 4 }}>
               <img
-                src="/images/christmas-tree-1.jpg" 
-                alt="Christmas Tree" 
-                width={600}
-                height={400}
+                src="/images/logo_cropped_2.jpg" 
+                alt="Gonzalez Zhu Christmas 2025 Las Vegas Sign" 
+                width={250}
+                height={350}
                 style={{ 
                   maxWidth: '100%', 
                   height: 'auto',
