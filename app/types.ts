@@ -1,9 +1,9 @@
 export type BaseCardData = {
     id: number;
-    name: string;
+    slug: string;
     answer: string;
+    name: string;
     shortDescription: string;
     image: string;
-    christmasImage: string;
-    slug: string;
+    christmasImage?: string;
 }

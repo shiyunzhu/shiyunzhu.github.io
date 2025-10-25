@@ -1,5 +1,12 @@
 import { Box, Grid, Typography } from '@mui/material';
 import CheckAnswer from './components/CheckAnswer';
+import { Festive} from "next/font/google";
+
+const festive = Festive({
+  weight: ["400"],
+  variable: "--font-festive",
+  subsets: ["latin"],
+})
 
 export default function Home() {
 
@@ -9,19 +16,20 @@ export default function Home() {
         paddingTop: { xs: 4, sm: 4, md: 4, lg: 4 }, 
         maxWidth: 800, 
         mx: 'auto'
-      }}>    
+      }}>  
         <Grid container spacing={{ xs: 2, sm: 3, md: 4 }}>
           <Grid size={12}>
             <Typography 
+            className={festive.className}
               variant="h1" 
               component="h1"
               sx={{
-                fontSize: { xs: '2rem', sm: '2.5rem', md: '3rem', lg: '3.5rem' },
+                fontSize: { xs: '2.5rem', sm: '2.5rem', md: '3rem', lg: '3.5rem' },
                 textAlign: 'center',
                 mb: 2
               }}
             >
-              Christmas 2025
+              Gonzalez Zhu Christmas 2025
             </Typography>
           </Grid>
           <Grid size={12}>

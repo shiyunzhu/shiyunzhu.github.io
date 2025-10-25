@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono , Roboto} from "next/font/google";
+import { Geist, Geist_Mono , Roboto, Festive} from "next/font/google";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import "./globals.css";
 import theme from './theme';
@@ -21,6 +21,8 @@ const roboto = Roboto({
     display: 'swap',
     variable: '--font-roboto',
   });
+
+
 
 export const metadata: Metadata = {
   title: "Christmas 2025",

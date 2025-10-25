@@ -13,6 +13,7 @@ import FormControl from '@mui/material/FormControl';
 import InputLabel from '@mui/material/InputLabel';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
+import Snowfall from 'react-snowfall';
 
 type AlertData = {
     message: string;
@@ -73,6 +74,13 @@ const CheckAnswerComponent = () => {
 
     return (
         <Box sx={{ maxWidth: 400, mx: 'auto' }}>
+            <Snowfall 
+                color="#fff"  
+                style={{
+                    position: 'fixed',
+                    width: '100vw',
+                    height: '100vh',
+            }} />  
             {alertData && (
                 <Alert severity={alertData.severity} sx={{ mb: 2 }}>
                     {alertData.message}
