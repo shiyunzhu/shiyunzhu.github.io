@@ -5,4 +5,5 @@ export type BaseCardData = {
     shortDescription: string;
     image: string;
     christmasImage: string;
+    slug: string;
 }

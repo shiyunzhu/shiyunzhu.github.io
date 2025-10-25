@@ -8,6 +8,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Death Valley is a valley in the Mojave Desert of the United States. It is known for its extreme heat and dryness.',
         image: '/images/death-valley.jpg',
         christmasImage: '/images/christmas-tree-1.jpg',
+        slug: 'death-valley',
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Valley of Fire is a ',
         image: '/images/valley-of-fire.jpg',
         christmasImage: '/images/happy-christmas-1.jpg',
+        slug: 'death-valley',
     },
     {
         id: 3,
@@ -24,6 +26,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Death Valley is a valley in the Mojave Desert of the United States. It is known for its extreme heat and dryness.',
         image: '/images/death-valley.jpg',
         christmasImage: '/images/christmas-tree-1.jpg',
+        slug: 'death-valley',
     },
     {
         id: 4,
@@ -32,6 +35,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Valley of Fire is a ',
         image: '/images/valley-of-fire.jpg',
         christmasImage: '/images/happy-christmas-1.jpg',
+        slug: 'death-valley',
     },
     {
         id: 5,
@@ -40,6 +44,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Death Valley is a valley in the Mojave Desert of the United States. It is known for its extreme heat and dryness.',
         image: '/images/death-valley.jpg',
         christmasImage: '/images/christmas-tree-1.jpg',
+        slug: 'death-valley',
     },
     {
         id: 6,
@@ -48,6 +53,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Valley of Fire is a ',
         image: '/images/valley-of-fire.jpg',
         christmasImage: '/images/happy-christmas-1.jpg',
+        slug: 'death-valley',
     },
     {
         id: 7,
@@ -56,6 +62,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Death Valley is a valley in the Mojave Desert of the United States. It is known for its extreme heat and dryness.',
         image: '/images/death-valley.jpg',
         christmasImage: '/images/christmas-tree-1.jpg',
+        slug: 'death-valley',
     },
     {
         id: 8,
@@ -64,6 +71,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Valley of Fire is a ',
         image: '/images/valley-of-fire.jpg',
         christmasImage: '/images/happy-christmas-1.jpg',
+        slug: 'death-valley',
     },
     {
         id: 9,
@@ -72,6 +80,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Death Valley is a valley in the Mojave Desert of the United States. It is known for its extreme heat and dryness.',
         image: '/images/death-valley.jpg',
         christmasImage: '/images/christmas-tree-1.jpg',
+        slug: 'death-valley',
     },
     {
         id: 10,
@@ -80,6 +89,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Valley of Fire is a ',
         image: '/images/valley-of-fire.jpg',
         christmasImage: '/images/happy-christmas-1.jpg',
+        slug: 'death-valley',
     },
     {
         id: 11,
@@ -88,6 +98,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Death Valley is a valley in the Mojave Desert of the United States. It is known for its extreme heat and dryness.',
         image: '/images/death-valley.jpg',
         christmasImage: '/images/christmas-tree-1.jpg',
+        slug: 'death-valley',
     },
     {
         id: 12,
@@ -96,6 +107,7 @@ const data: Array<BaseCardData> = [
         shortDescription: 'Valley of Fire is a ',
         image: '/images/valley-of-fire.jpg',
         christmasImage: '/images/happy-christmas-1.jpg',
+        slug: 'death-valley',
     }
 ];
 
