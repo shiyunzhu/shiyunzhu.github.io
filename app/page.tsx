@@ -1,5 +1,6 @@
 import { Box, Grid } from '@mui/material';
 import CheckAnswer from './components/CheckAnswer';
+import ConversationStarter from './components/ConversationStarter';
 
 export default function Home() {
 
@@ -28,6 +29,9 @@ export default function Home() {
           </Grid>
           <Grid size={12}>
             <CheckAnswer />
+          </Grid>
+          <Grid size={12}>
+            <ConversationStarter />
           </Grid>
         </Grid>
       </Box>
