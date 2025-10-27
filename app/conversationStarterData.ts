@@ -1,12 +1,12 @@
 const conversationStarterData = [
     "What was your favourite food growing up?", 
     "What did you want to do (as a job) when you were younger?",
-    "What is your favorite move?",
+    "What is your favorite movie?",
     "What is the most beautiful place you have seen?",
     "If you won the lottery, what would you do with the money?",
     "If you could travel anywhere in the world, where would you go?",
     "What was your favorite game as a child (or activity you liked to do)?",
-    "What is your favorite animaml at the zoo or aquarium?",
+    "What is your favorite animal at the zoo or aquarium?",
     "Would you go to Mars if you could?",
     "Make one bold prediction about the future",
     "Is AI a \"bubble\" or will it replace all our jobs?",
@@ -19,7 +19,6 @@ const conversationStarterData = [
      "Do you think aliens exist?",
      "If you could go to any artist's concert (living or dead), who would it be?",
      "What is your favorite ice cream flavor?"
-
 ]
 
 export default conversationStarterData;

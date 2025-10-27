@@ -33,12 +33,11 @@ export const ConversationStarter = () => {
       {/* Clickable image */}
       <Box
         sx={{
-            margin: "auto",
-            position: "fixed",
-            bottom: 0,
-            left: 0,
-            right: 0,
-            width: "80%",
+            marginTop: 4,
+            marginLeft: "auto",
+            marginRight: "auto",
+            position: "relative",
+            width: 320,
             height: 180,
             cursor: "pointer",
           borderRadius: 2,
@@ -56,6 +55,7 @@ export const ConversationStarter = () => {
             width: "100%",
             height: "100%",
             objectFit: "cover",
+            objectPosition: "top",
             display: "block",
           }}
         />
@@ -63,7 +63,7 @@ export const ConversationStarter = () => {
           variant="h5"
           sx={{
             position: "absolute",
-            top: "50%",
+            top: "42%",
             left: "50%",
             transform: "translate(-50%, -50%)",
             color: "black",
