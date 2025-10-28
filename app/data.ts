@@ -3,7 +3,7 @@ import type { BaseCardData } from "./types";
 const data: Array<BaseCardData> = [
     {
         id: 1,
-        answer: 'Death Valley',
+        answer: 'Death Valley', // mojave?
         name: 'Death Valley',
         shortDescription: "Is that snow on the hottest place on Earth? Visit Badwater Basin to find out for yourself.\nThe otherwordly landscapes you'll encounter will include desert sand dunes and painted hills.\nUnsurprisingly the lowest and driest place in the country is not very populated, making it an ideal dark sky to look for the aliens commonly thought to reside in nearby Area 51.\nLook for UFOs amongst the Ursids in tonight's meteor shower.",
         image: '/images/death-valley.jpg',
@@ -35,7 +35,7 @@ const data: Array<BaseCardData> = [
     },
     {
         id: 5,
-        answer: 'Ramsay',
+        answer: 'Ramsay', // masterchef?
         name: 'Gordon Ramsay Burger',
         shortDescription: "With 8 Michelin stars and a reputation from Hell's kitchen, it can be said that a meal from this chef is the culinary equivalent of stargazing in Death Valley. Chef Gordon Ramsay has several restaurants on the Strip, but today we'll be trying his burgers - Ruy's favorite!",
         image: '/images/gordon-ramsay.jpg',
@@ -51,7 +51,7 @@ const data: Array<BaseCardData> = [
     },
     {
         id: 7,
-        answer: '',
+        answer: 'fusion',
         name: 'China Poblano',
         shortDescription: "Chef Jose Andres is known for his 2 Michelin Stars and Nobel Peace prize-worthy organization - World Central Kitchen. But today, the Spanish-born and Washington DC-based Chef will bring together Mexican and Chinese cuisines for a unique meal worthy of our Christmas Eve family dinner. Provecho!",
         image: '/images/jose-andres.webp',
@@ -61,7 +61,7 @@ const data: Array<BaseCardData> = [
         id: 8,
         answer: 'eau',
         name: 'O Cirque du Soleil',
-        shortDescription: "TODO",
+        shortDescription: "This trip has had a lot of fire. It's time to balance it out with A LOT of water. 1.5 million gallens to be exact. The theater was custom built around this pool, and along with the costumes, is meant to resemble Venice in the 1300s. O is considered the premier Cirque du Soleil show. See if you can hear the traditional Chinese instrument, erhu, in its soundtrack or spot one of its 8 Olympian performers (7 artistic swimmers and 1 diver).",
         image: '/images/valley-of-fire.jpg',
         slug: 'o-cirque',
     },
@@ -69,15 +69,15 @@ const data: Array<BaseCardData> = [
         id: 9,
         answer: 'Thomas Keller',
         name: 'Bouchon',
-        shortDescription: 'Death Valley is a valley in the Mojave Desert of the United States. It is known for its extreme heat and dryness.',
+        shortDescription: "This year, Netflix came out with a series called Chef's Table: Legends, highlighting 4 culinary legends. One of these was Jose Andres. Another is Thomas Keller, the 7-Michelin-starred Chef of French Laundry, often considered the best restaurant in the World. Today you'll try his take on French bistro classics for brunch and taste for yourself if the greatest American chef lives up to the hype. Bon appetit!",
         image: '/images/death-valley.jpg',
         slug: 'bouchon-brunch',
     },
     {
         id: 10,
-        answer: 'Escape',
+        answer: 'Escape', // Eureka?
         name: 'The Escape Game',
-        shortDescription: 'Valley of Fire is a ',
+        shortDescription: "We started the trip by visiting California's Death Valley, a place that got its name from prospectors looking for a shortcut during the 1849 Gold Rush, but instead found what they called \"Death Valley.\" Hopefully you have better luck than them today in this Gold Rush-themed escape room.",
         image: '/images/valley-of-fire.jpg',
         slug: 'the-escape-game',
     },
@@ -85,7 +85,7 @@ const data: Array<BaseCardData> = [
         id: 11,
         answer: 'Sphere',
         name: 'The Sphere',
-        shortDescription: 'Death Valley is a valley in the Mojave Desert of the United States. It is known for its extreme heat and dryness.',
+        shortDescription: "The Wizard of Oz was one of the first films shot in color (as opposed to being colored in after being filmed), a technological and artistic marvel that led to it becoming the most watched movie of all time. It won two Academy Awards: Best Original Score and Best Song. It's fitting then, to be able to watch it in the technological and artistic marvel that is the Sphere. The Sphere was built to have the best sound quality of any venue, with a record 167,000 speakers (more than one per seat allowing it to completely customize the sound it sends to each seat). And yet it's perhaps more famous for its 16k x 16k LED screen, the largest and highest-resolution screen in the World. Enjoy the show!",
         image: '/images/death-valley.jpg',
         slug: 'the-sphere',
     },
@@ -93,7 +93,7 @@ const data: Array<BaseCardData> = [
         id: 12,
         answer: 'XLB',
         name: 'Din Tai Fung',
-        shortDescription: 'Valley of Fire is a ',
+        shortDescription: "To cap off the trip, have a dinner at Din Tai Fung, a Taiwanese chain who's had several locations earn a Michelin Star. This restaurant is most famous for its xiao long bao, weighing exactly 21 grams and folded exactly 18 times. This precision gives each dumpling the structural stability to not break despite its paper-thin wrapper.",
         image: '/images/valley-of-fire.jpg',
         slug: 'din-tai-fung',
     }
