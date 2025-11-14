@@ -72,6 +72,12 @@ const CheckAnswerComponent = () => {
         }
     }, [eventNumber, router]);
 
+    const snowflakeImg = new Image();
+    snowflakeImg.src = '/images/snowflake1.svg';
+
+    const snowflakeImg2 = new Image();
+    snowflakeImg2.src = '/images/snowflake2.png';
+
     return (
         <Box sx={{ maxWidth: 400, mx: 'auto', backgroundColor: '#aaa9a5', padding: 2, borderRadius: '8px' }}>
             <Snowfall 
@@ -80,7 +86,10 @@ const CheckAnswerComponent = () => {
                     position: 'fixed',
                     width: '100vw',
                     height: '100vh',
-            }} />  
+                }} 
+                radius={[5, 15]}
+                images={[snowflakeImg, snowflakeImg2]}
+            />  
             {alertData && (
                 <Alert severity={alertData.severity} sx={{ mb: 2 }}>
                     {alertData.message}
