@@ -5,7 +5,7 @@ const data: Array<BaseCardData> = [
         id: 1,
         answer: 'Mojave', // mojave?
         name: 'Death Valley',
-        shortDescription: "Is that snow on the hottest place on Earth? Visit Badwater Basin to find out for yourself.\nThe otherwordly landscapes you'll encounter will include desert sand dunes and scenes straigt out of Star Wars.\nUnsurprisingly the lowest and driest place in the country is not very populated, making it an ideal dark sky to look for the aliens commonly thought to reside in nearby Area 51.\nLook for UFOs amongst the Ursids in tonight's meteor shower.",
+        shortDescription: "Is that snow on the hottest place on Earth? Visit Badwater Basin to find out for yourself.\nThe otherwordly landscapes you'll encounter will include desert sand dunes and scenes straight out of Star Wars.\nUnsurprisingly the lowest and driest place in the country is not very populated, making it an ideal dark sky to look for the aliens commonly thought to reside in nearby Area 51.\nLook for UFOs amongst the Ursids in tonight's meteor shower.",
         image: '/images/death-valley.jpg',
         slug: 'death-valley',
     },
