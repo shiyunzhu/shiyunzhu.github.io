@@ -18,7 +18,10 @@ const conversationStarterData = [
      "Have you ever gotten really lucky (or unlucky)?",
      "Do you think aliens exist?",
      "If you could go to any artist's concert (living or dead), who would it be?",
-     "What is your favorite ice cream flavor?"
+     "What is your favorite ice cream flavor?",
+     "Have you ever been close to being scammed?",
+     "Who is your favourite artist? Musician, painter, actor, etc.",
+     "What was your favourite/least favourite subject in school?"
 ]
 
 export default conversationStarterData;
